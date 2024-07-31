@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.toggleButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Ensure the text and icon are spaced apart */
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+
+    margin-bottom: 5px;
+    /* Add some space between the button and the content */
+}
+
+
+.icon {
+    margin-left: 10px;
+    /* Space between text and icon */
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+}

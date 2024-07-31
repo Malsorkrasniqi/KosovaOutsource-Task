@@ -1,0 +1,47 @@
+[
+  {
+    "icon": "dot-com",
+    "title": "The TLD",
+    "description": "Does the domain extension match the language of the domain name?"
+  },
+  {
+    "icon": "ruler",
+    "title": "Domain Length",
+    "description": "Is the domain short enough to remember?"
+  },
+  {
+    "icon": "globe",
+    "title": "Language",
+    "description": "How complex is the actual domain name?"
+  },
+  {
+    "icon": "recognition",
+    "title": "International recognition",
+    "description": "Can the domain name be used on an international scale?"
+  },
+  {
+    "icon": "magnifier",
+    "title": "Search engine",
+    "description": "Does the domain follow search engine guidelines?"
+  },
+  {
+    "icon": "megaphone",
+    "title": "Advertising Potential",
+    "description": "Could the domain be used for advertising campaigns?"
+  },
+  {
+    "icon": "sales",
+    "title": "Sales Opportunities",
+    "description": "Can the domain name be used on an international scale?"
+  },
+  {
+    "icon": "typo",
+    "title": "Typo susceptibility",
+    "description": "How high is the risk of mistyping the domain name?"
+  },
+  {
+    "icon": "bulb",
+    "title": "Business potential",
+    "description": "Can the domain be used as your company address?"
+  }
+]

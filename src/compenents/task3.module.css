@@ -1,0 +1,42 @@
+/* Container to center the accordion */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.header {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+}
+
+.item {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panel {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
