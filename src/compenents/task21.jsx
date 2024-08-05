@@ -9,6 +9,10 @@ const data = {
     { name: ".AI", price: "$55.99/yr", oldPrice: "$10.99/yr" },
     { name: ".NET", price: "$7.99/yr", oldPrice: "$10.99/yr" },
     { name: ".HEALTH", price: "$9.99/yr", oldPrice: "$13.99/yr" },
+    { name: ".HEALTH", price: "$9.99/yr", oldPrice: "$13.99/yr" },
+    { name: ".HEALTH", price: "$9.99/yr", oldPrice: "$13.99/yr" },
+    { name: ".HEALTH", price: "$9.99/yr", oldPrice: "$13.99/yr" },
+    { name: ".HEALTH", price: "$9.99/yr", oldPrice: "$13.99/yr" },
   ],
   "Web Hosting": [
     { name: "Basic Plan", price: "$3.99/mo", oldPrice: "$5.99/mo" },
@@ -18,7 +22,7 @@ const data = {
   ],
   "Dedicated Servers": [
     { name: "Entry Server", price: "$70/mo", oldPrice: "$100/mo" },
-    { name: "Professional Server", price: "$150/mo", oldPrice: "$200/mo" },
+    { name: "Professional", price: "$150/mo", oldPrice: "$200/mo" },
     { name: "Enterprise Server", price: "$300/mo", oldPrice: "$400/mo" },
     { name: "Enterprise Server", price: "$500/mo", oldPrice: "$600/mo" },
   ],
@@ -39,6 +43,10 @@ const data = {
     { name: "Business Email", price: "$3.99/mo", oldPrice: "$6.99/mo" },
     { name: "Enterprise Email", price: "$6.99/mo", oldPrice: "$9.99/mo" },
     { name: "Enterprise Email", price: "$7.99/mo", oldPrice: "$9.99/mo" },
+    { name: "Enterprise Email", price: "$7.99/mo", oldPrice: "$9.99/mo" },
+    { name: "Enterprise Email", price: "$7.99/mo", oldPrice: "$9.99/mo" },
+    { name: "Enterprise Email", price: "$7.99/mo", oldPrice: "$9.99/mo" },
+    { name: "Enterprise Email", price: "$7.99/mo", oldPrice: "$9.99/mo" },
   ],
   "VPS Hosting Servers": [
     { name: "VPS Plan 1", price: "$5/mo", oldPrice: "$8/mo" },
@@ -54,7 +62,7 @@ const TabContent = ({ items }) => (
     {items.map((item, index) => (
       <div key={index} className={styles.card}>
         <h3>{item.name}</h3>
-        <p>{item.price}</p>
+        <h4>{item.price}</h4>
         <p>Instead of {item.oldPrice}</p>
         <button>Buy Now</button>
       </div>
@@ -85,3 +93,5 @@ const Task21 = () => (
 );
 
 export default Task21;
+
+// Final

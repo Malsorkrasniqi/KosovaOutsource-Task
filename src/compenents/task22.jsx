@@ -33,3 +33,5 @@ const ToggleComponent = () => {
 };
 
 export default ToggleComponent;
+
+// Finali

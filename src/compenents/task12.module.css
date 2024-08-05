@@ -1,26 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .card {
+    padding: 0px 16px !important;
+    margin: 16px;
+    width: 370px;
+    height: 340px;
+    gap: 0px;
+
+  }
+
+
+  .header {
+    gap: 4px !important;
+
+
+
+  }
+
+  .part1 {
+    gap: 10px !important;
+  }
+
+  .type {
+    font-size: 10px !important;
+
+  }
+
+  .author {
+    display: flex;
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+
+  .description {
+
+    height: 90px !important;
+    color: #adb5bd;
+    font-size: 12px !important;
+
+  }
+
+  .downloadBtn {
+    padding: 8px 46px !important;
+  }
+
+}
+
+
 
 
 
 .card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
-  border: 1px solid;
-  border-radius: 8px;
-  border-color: #ced4da;
-  font-family: "Roboto", sans-serif;
-  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+
+  padding: 0px 20px;
   margin: 16px;
-  max-width: 300px;
-  min-height: 300px;
+  width: 370px;
+  height: 340px;
+  gap: 27px;
+
 }
 
 
 .header {
   display: flex;
   justify-content: left;
+  align-items: self-start;
   gap: 5px;
-  margin-bottom: 8px;
+
+
+
 }
 
 .part1 {
@@ -43,32 +107,31 @@
 
 
 .type {
-  padding: 3px 23px;
-  border-radius: 4px;
+  padding: 5px 23px;
+  border-radius: 5px;
   color: white;
-  font-size: 0.9em;
-  margin-right: 8px;
+  font-size: 12px;
+
 }
 
 .authorImage {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+
   border-radius: 50%;
 }
 
 .author {
-  font-weight: bold;
-  margin-right: 8px;
+  font-weight: 400;
 }
 
 
 
 
 .description {
-  margin-top: 24px;
+
   height: 110px;
-  color: gray;
-  font-size: 0.9em;
+  color: #adb5bd;
+  font-size: 15px;
 
 }
 
@@ -78,14 +141,16 @@
   color: #1971c2;
   border-color: #1971c2;
   border-width: 1px;
-  padding: 15px 50px;
+  padding: 13px 50px;
   border-radius: 50px;
   cursor: pointer;
-  margin-top: 50px;
-  transition: background-color 0.2s;
+  transition: background-color 0.1s;
 }
 
 .downloadBtn:hover {
   background-color: #0056b3;
   color: azure;
 }
+
+
+/* Final */

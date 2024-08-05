@@ -4,6 +4,7 @@ import Task12 from "./compenents/task12";
 import Task21 from "./compenents/task21";
 import Task22 from "./compenents/task22";
 import Task3 from "./compenents/task3";
+
 import "../src/index.css";
 import Data2 from "./data2.json";
 

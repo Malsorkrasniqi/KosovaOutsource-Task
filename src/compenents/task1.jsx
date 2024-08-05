@@ -4,8 +4,9 @@ import data from "../data.json";
 import { FcAbout } from "react-icons/fc";
 
 // I don't have much time left for me to import the icons
+// <FcAbout />
 const icons = {
-  "dot-com": <FcAbout />,
+  "dot-com": "🌐",
   "ruler": "📏",
   "globe": "🌍",
   "recognition": "🏅",
@@ -13,7 +14,7 @@ const icons = {
   "megaphone": "📣",
   "sales": "💼",
   "typo": "✏️",
-  "bulb": "💡",
+  "bulb": "🧮",
 };
 
 const DomainCriteria = () => {
@@ -24,21 +25,28 @@ const DomainCriteria = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
-      {criteria.map((item, index) => (
-        <div key={index} className={styles.item}>
-          <div className={styles.leftSide}>
-            <div className={styles.icon}>{icons[item.icon]}</div>
-          </div>
+    console.log("sa her po "),
+    (
+      <div className={styles.container}>
+        {/* Container maib */}
+        {criteria.map((item, index) => (
+          // Cart e itemas
+          <div key={index} className={styles.item}>
+            <div className={styles.leftSide}>
+              <div className={styles.icon}>{icons[item.icon]}</div>
+            </div>
 
-          <div className={styles.rightSide}>
-            <div className={styles.title}>{item.title}</div>
-            <div className={styles.description}>{item.description}</div>
+            <div className={styles.rightSide}>
+              <div className={styles.title}>{item.title}</div>
+              <div className={styles.description}>{item.description}</div>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    )
   );
 };
 
 export default DomainCriteria;
+
+// Finall

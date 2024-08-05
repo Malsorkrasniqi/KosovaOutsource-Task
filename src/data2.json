@@ -1,7 +1,7 @@
 [
   {
     "version": "3.3.0",
-    "date": "14/05/2018",
+    "date": "(14/05/2018)",
     "type": "New",
     "author": "Kevin Joe",
     "description": "File system changed from Dokan to CBFS Host Cloud Drive is now a network drive Various bug fixes and stability improvements Share permissions re-design and optimization",
@@ -10,7 +10,7 @@
   },
   {
     "version": "3.1.0",
-    "date": "20/05/2015",
+    "date": "(20/05/2015)",
     "type": "Fix",
     "author": "Kevin Joe",
     "description": "Introducing Host Cloud Drive - virtual drive functionality New Share options and management New, more user friendly design Sync optimizations Various performance improvements and bug fixes",
@@ -19,7 +19,7 @@
   },
   {
     "version": "3.1.0",
-    "date": "20/05/2015",
+    "date": "(20/05/2015)",
     "type": "Improvement",
     "author": "Kevin Joe",
     "description": "Added Settings for Auto Start Added Update Notification Speed Optimization Bug Fixes",
@@ -28,7 +28,7 @@
   },
   {
     "version": "3.3.0",
-    "date": "14/05/2018",
+    "date": "(14/05/2018)",
     "type": "New",
     "author": "Kevin Joe",
     "description": "File system changed from Dokan to CBFS Host Cloud Drive is now a network drive Various bug fixes and stability improvements Share permissions re-design and optimization",
@@ -37,7 +37,7 @@
   },
   {
     "version": "3.1.0",
-    "date": "20/05/2015",
+    "date": "(20/05/2015)",
     "type": "Fix",
     "author": "Kevin Joe",
     "description": "Introducing Host Cloud Drive - virtual drive functionality New Share options and management New, more user friendly design Sync optimizations Various performance improvements and bug fixes",
@@ -46,7 +46,7 @@
   },
   {
     "version": "3.1.0",
-    "date": "20/05/2015",
+    "date": "(20/05/2015)",
     "type": "Improvement",
     "author": "Kevin Joe",
     "description": "Added Settings for Auto Start Added Update Notification Speed Optimization Bug Fixes",
